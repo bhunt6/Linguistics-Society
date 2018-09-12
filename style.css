@@ -31,6 +31,7 @@ body {
       align-self: end;
       grid-column: 2;
       color: #0C5247;
+      white-space: nowrap;
     }
 
     .title_cont .logo {
@@ -70,12 +71,13 @@ body {
       justify-self: start;
       text-decoration: none;
       color:  #0C5247;
+      white-space: nowrap;
     }
 
     .nav .box a:hover {
       background-color: #0C5247;
       color: #F3F3F1;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      box-shadow: 0 -2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
     }
 
