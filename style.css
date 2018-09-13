@@ -126,24 +126,24 @@ body {
 
     .content .constitution {
       grid-column: 1;
-      background-color: #0C5247;
-      height: 48px;
-      width: 200px;
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: 48px;
     }
 
     .content .constitution a {
-      background-color: inherit;
-      height: inherit;
-      width: inherit;
-      line-height: 48px;
-      text-align: center;
+      padding: 10px;
+      align-self: end;
+      justify-self: start;
       text-decoration: none;
-      color: #F3F3F1;
+      color:  #F3F3F1;
+      background-color: #0C5247;
+      white-space: nowrap;
     }
 
     .content .constitution a:hover {
-      color: #F3F3F1;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      box-shadow: 0 -2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
     }
 
   .footer {
