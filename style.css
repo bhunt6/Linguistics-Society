@@ -54,7 +54,7 @@ body {
   .nav {
     grid-area: nav;
     display: grid;
-    grid-template-columns: repeat(6, auto) 40%;
+    grid-template-columns: repeat(7, auto) 40%;
     border-bottom: 2px solid #0C5247;
   }
 
@@ -103,6 +103,11 @@ body {
 
     .contact {
       grid-column: 6;
+    }
+
+    .resources {
+      grid-column: 7;
+      cursor: pointer;
     }
 
   .content {
