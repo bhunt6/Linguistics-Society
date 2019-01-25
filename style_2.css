@@ -111,7 +111,7 @@ body {
     }
 
    .box div {
-      height: auto;
+      height: inherit;
       width: inherit;
       visibility: hidden;
       opacity: 0;
@@ -125,23 +125,27 @@ body {
       visibility: visible;
       opacity: 1;
       display: inline-block;
+      z-index: 999;
     }
 
     .box div > a {
-      padding: 10px;
-      height: 100%;
+      padding: 5px;
       width: inherit;
       display: inline-block;
       text-decoration: none;
-      background-color: #F3F3F1;
+      background-color: #e0e0d9;
       color: #0C5247;
-      border: 2px solid #0C5247;
-      white-space: nowrap;
+      border-left: 2px solid #0C5247;
+
     }
 
     .box div > a:hover {
       background-color: #0C5247;
       color: #F3F3F1;
+    }
+
+    .one > a {
+      border-top: 2px solid #0C5247;
     }
 
   .content {
@@ -154,8 +158,30 @@ body {
 
     .content .mission {
       grid-column: 1;
-      justify-self: start;
       padding-top: 5%;
+    }
+    .content .mission div div {
+      width:80%;
+      border:1px solid black;
+      padding:20px;
+      margin-right:90px;
+      background-color: #c3d7c1;
+    }
+    .content .issues {
+      grid-column: 1;
+      padding-top: 5%;
+      display: grid;
+      grid-template-columns: 30% 70%;
+    }
+    .issues .sidebar {
+      grid-column: 1;
+      display: grid;
+      grid-template-rows: repeat(11, auto);
+      border:1px solid black;
+      padding:20px;
+      margin-right:90px;
+      background-color: #c3d7c1;
+      text-align: center;
     }
     .content .feed {
       grid-column: 2;
