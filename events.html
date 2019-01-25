@@ -1,7 +1,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style_2.css">
 </head>
 <body>
   <div class="container">
@@ -11,15 +11,72 @@
     </div>
     <div class="ling2"><a><img src="ling2.svg"></a></div>
     <div class="nav">
-      <div class="box home"><a href="index.html"><h4>Home</h4></a></div>
+      <div class="box home"><a href="index_2.html"><h4>Home</h4></a></div>
       <div class="box ling_prog"><a href="https://linguistics.gmu.edu/"><h4>Linguistics Program</h4></a></div>
       <div class="box events"><a href="events.html"><h4>Events</h4></a></div>
       <div class="box pubs"><a href="http://www.gmu.edu/org/lingclub/WP/wp.php?Vol=8"><h4>Publications</h4></a></div>
       <div class="box ling_list"><a href="https://linguistics.gmu.edu/graduate/linglist"><h4>Join Ling List</h4></a></div>
       <div class="box contact"><a href="contact.html"><h4>Contact</h4></a></div>
+      <div class="box resources"><a><h4>Resources</h4></a>
+          <div class="one"><a href="http://accent.gmu.edu/">Speech Accent Archive</a></div>
+          <div class="two"><a href="http://www.sylvialrschreiner.com/language-documentation-lab/">Language Documentation Lab</a></div>
+      </div>
     </div>
     <div class="content">
-      <div class="mission"><h3>Upcoming Events</h3><br><p>There are no upcoming events.</p></div>
+      <div class="mission">
+        <div id="events">
+          <br><h3>Upcoming Events</h3><br><hr><br>
+          <div>
+            <h4>Linguistics Society General Meeting</h4>
+            <p>1/31/2019 - 7:30-9:00pm <br> Merten Hall 3300</p>
+          </div>
+          <br>
+          <div>
+            <h4>Ling Society @ Brownbag: Ultrasound Workshop</h4>
+            <p>2/12/2019 - 12:00-1:00pm <br> Robinson B 434</p>
+          </div>
+          <br>
+          <div>
+            <h4>Linguistics Society General Meeting</h4>
+            <p>2/28/2019 - 7:30-9:00pm <br> Merten Hall 3300</p>
+          </div>
+          <br>
+          <div>
+            <h4>Ling Society @ Brownbag: HowToLing</h4>
+            <p>3/19/2019 - 12:00-1:00pm <br> Robinson B 434</p>
+          </div>
+          <br>
+          <div>
+            <h4>Linguistics Society General Meeting</h4>
+            <p>3/28/2019 - 7:30-9:00pm <br> Merten Hall 3300</p>
+          </div>
+          <br>
+          <div>
+            <h4>Ling Society @ Brownbag: R Workshop</h4>
+            <p>4/9/2019 - 12:00-1:00pm <br> Robinson B 434</p>
+          </div>
+          <br>
+          <div>
+            <h4>Linguistics Society General Meeting</h4>
+            <p>4/25/2019 - 7:30-9:00pm <br> Merten Hall 3300</p>
+          </div>
+          <br>
+          <div>
+            <h4>Ling Society Movie Night 1</h4>
+            <p>TBD <br> Merten Hall 3300 <br> Arrival</p>
+          </div>
+          <br>
+          <div>
+            <h4>Ling Society Movie Night 2</h4>
+            <p>TBD <br> Merten Hall 3300 <br> The Linguists</p>
+          </div>
+          <br>
+          <div>
+            <h4>Ling Society Movie Night 3</h4>
+            <p>TBD <br> Merten Hall 3300 <br> TBD</p>
+          </div>
+        </div>
+      </div>
       <div class="feed">
         <a class="twitter-timeline" data-width="220" data-height="300" data-theme="dark" href="https://twitter.com/GMUlinguistics?ref_src=twsrc%5Etfw">Tweets by GMUlinguistics</a>
       </div>
@@ -30,6 +87,34 @@
       <div class="gmu"><h4>George Mason University</h4><p>4400 University Drive, 3E4<br>Fairfax, VA 22030</p></div>
     </div>
   </div>
+<script>
 
+window.onload(loadXMLDoc());
+
+  function loadXMLDoc() {
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+        myFunction(this);
+      }
+    };
+    xmlhttp.open("GET", "calendar.xml", true);
+    xmlhttp.send();
+  }
+  function myFunction(xml) {
+    var i;
+    var xmlDoc = xml.responseXML;
+    var table="<tr><th>Title</th><th>Date</th></tr>";
+    var x = xmlDoc.getElementsByTagName("EVENT");
+    for (i = 0; i <x.length; i++) {
+      table += "<tr><td>" +
+      x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue +
+      "</td><td>" +
+      x[i].getElementsByTagName("DATE")[0].childNodes[0].nodeValue +
+      "</td></tr>";
+    }
+    document.getElementById("events").innerHTML = table;
+  }
+</script>
 </body>
 </html>
