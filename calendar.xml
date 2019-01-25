@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<calendar>
+
+  <event>
+    <title>Linguistics Society General Meeting</title>
+    <date>1-31-2019</date>
+    <time>7:30-9:00pm</time>
+    <place>Merten Hall 3300</place>
+    <desc>do some stuff</desc>
+  </event>
+
+  <event>
+    <title>Linguistics Society General Meeting</title>
+    <date>2-28-2019</date>
+    <time>7:30-9:00pm</time>
+    <place>Merten Hall 3300</place>
+    <desc>do some stuff</desc>
+  </event>
+
+  <event>
+    <title>Linguistics Society General Meeting</title>
+    <date>3-28-2019</date>
+    <time>7:30-9:00pm</time>
+    <place>Merten Hall 3300</place>
+    <desc>do some stuff</desc>
+  </event>
+
+  <event>
+    <title>Ling Society @ Brownbag: R Workshop</title>
+    <date>4-9-2019</date>
+    <time>12:00-1:00pm</time>
+    <place>Robinson B 434</place>
+    <desc>do some stuff</desc>
+  </event>
+
+  <event>
+    <title>Ling Society @ Brownbag: HowToLing</title>
+    <date>3-19-2019</date>
+    <time>12:00-1:00pm</time>
+    <place>Robinson B 434</place>
+    <desc>do some stuff</desc>
+  </event>
+
+  <event>
+    <title>Ling Society @ Brownbag: Ultrasound Workshop</title>
+    <date>2-12-2019</date>
+    <time>12:00-1:00pm</time>
+    <place>Robinson B 434</place>
+    <desc>do some stuff</desc>
+  </event>
+
+  <event>
+    <title>Ling Society Movie Night 1</title>
+    <date>TBD</date>
+    <time>TBD</time>
+    <place>Merten Hall 3300</place>
+    <desc>Arrival</desc>
+  </event>
+
+  <event>
+    <title>Ling Society Movie Night 2</title>
+    <date>TBD</date>
+    <time>TBD</time>
+    <place>Merten Hall 3300</place>
+    <desc>The Linguists</desc>
+  </event>
+
+  <event>
+    <title>Ling Society Movie Night 3</title>
+    <date>TBD</date>
+    <time>TBD</time>
+    <place>Merten Hall 3300</place>
+    <desc>TBD</desc>
+  </event>
+
+</calendar>
