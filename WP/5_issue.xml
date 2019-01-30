@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding ="utf-8" ?>
+
+
+
+<issue> 
+	<id>
+		Volume 5, Spring 1998
+	</id>
+	
+	<editor>
+		Miwako Hisagi
+	</editor>
+	<editor>
+		Jennifer Martin
+	</editor>
+		
+	<article>
+		<title>acknowledgements</title>
+		<file>5_ack.pdf</file>
+	</article>
+	
+	<article>
+		<author>Miwako Hisagi:</author>
+		<title>Mora versus Syllable: An Analysis of Native Speakers' Production from a Japanese Language Game</title>
+		<file>5_Hisagi.pdf</file>
+	</article>
+	
+
+	<article>
+		<author>Nikoleta Dineen and Daiva Miller:</author>
+		<title>The Derivation of a Sonority Hierarchy from the Syllable Contact Law (SCL) and the Productivity of the SCL in American English</title>
+		<file>5_Dineen.pdf</file>
+	</article>
+	<article>
+		<author>Anthhony Nguyen and Carol Brouha:</author>
+		<title>The Production of Word-Final Consonants in English by L1 Speakers of Vietnamese</title>
+		<file>5_Nguyen.pdf</file>
+	</article>
+
+	<article>
+		<author>Jane Kirsch:</author>
+		<title>Negative Contractions and Extraction Sites</title>
+		<file>5_Kirsch.pdf</file>
+	</article>
+	
+	<article>
+		<author>Cathleen O'Brien:</author>
+		<title>The Jerry Springer Show Takes on the Cooperative Principle</title>
+		<file>5_Obrien.pdf</file>
+	</article>
+		
+	<article>
+		<author>Marisa Schaer:</author>
+		<title>Command of the Language</title>
+		<file>5_Schaer.pdf</file>
+	</article>
+		
+</issue>
+	

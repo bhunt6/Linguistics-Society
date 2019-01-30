@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding ="utf-8" ?>
+
+<!DOCTYPE stylesheet [
+<!ENTITY ntilde  "&#241;" ><!-- small n, tilde -->
+]>
+
+
+<issue> 
+	<id>
+		Volume 6, Fall 1999
+	</id>
+	
+	<editor>
+		Miwako Hisagi
+	</editor>
+	<editor>
+		Marietta Bradinova
+	</editor>
+		
+	<article>
+		<title>Acknowledgements</title>
+		<file>6_ack.pdf</file>
+	</article>
+	
+	<article>
+		<author>Kathleen Baker:</author>
+		<title>Seussisms and Violations to Universal Language Constraints</title>
+		<file>6_Baker.pdf</file>
+	</article>
+	
+
+	<article>
+		<author>Dawn Heverly:</author>
+		<title>Phonological Aspects of Glossolalia: A response to Motley</title>
+		<file>6_Heverly.pdf</file>
+	</article>
+	
+
+	<article>
+		<author>Sheryl Sherwin:</author>
+		<title>The Sonority Sequencing Principle in Interlanguaage Phonology</title>
+		<file>6_Sherwin.pdf</file>
+	</article>
+	
+	<article>
+		<author>John Alphin:</author>
+		<title>Universal Grammar and Language Pedagogy: Has SLA Research Linked Theory and Practice?</title>
+		<file>6_Alphin.pdf</file>
+	</article>	
+
+	<article>
+		<author>Anthony Nguyen:</author>
+		<title>The Systematic Reduction of English Syllable Final Consonants</title>
+		<file>6_Nguyen.pdf</file>
+	</article>
+
+	<article>
+		<author>Marietta Bradinova:</author>
+		<title>Subject Control and Nonsubject Control</title>
+		<file>6_Bradinova.pdf</file>
+	</article>
+	
+	<article>
+		<author>Terri Rhyne:</author>
+		<title>It, There and First Conjuncts</title>
+		<file>6_Rhyne.pdf</file>
+	</article>
+	
+	<article>
+		<author>-Brian Rose:</author>
+		<title> &lt;i&gt;-Ing&lt;/i&gt;lish 101</title>
+		<file>6_Rose.pdf</file>
+	</article>
+		
+</issue>
+	

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding ="utf-8" ?>
+
+<!DOCTYPE stylesheet [
+<!ENTITY ntilde  "&#241;" ><!-- small n, tilde -->
+]>
+
+
+<issue> 
+	<id>
+		Volume 9, Fall 2013
+	</id>
+	
+	<editor>
+		Katie Shoaf
+	</editor>
+	<editor>
+		Claudia Calissie
+	</editor>
+	<editor>
+		LaBrea Bass
+	</editor>
+		
+	<article>
+		<title>Acknowledgements</title>
+		<file>9_ack.pdf</file>
+	</article>
+	
+	<article>
+		<author>Chris Alderman:</author>
+		<title> Glossomimesis.</title>
+		<file>9_ChrisAlderman.pdf</file>
+	</article>
+	
+
+	<article>
+		<author> John Kinney:</author>
+		<title>The L2 English production of [&#240;] in word-initial onset and intervocalic onset position: A pilot study.</title>
+		<file>9_JohnKinney.pdf</file>
+	</article>
+	
+
+	<article>
+		<author>Justin Voigt:</author>
+		<title>The Distinction between Noun-Phrase Premodifiers: Nouns are not Adjectives.</title>
+		<file>9_JustinVoigt_NP Premodifiers.pdf</file>
+	</article>
+	
+	<article>
+		<author>Justin Voigt:</author>
+		<title>Can the Syntactic Burden on Working Memory Account for Island Constraints?.</title>
+		<file>9_JustinVoigt_Working Memory.pdf</file>
+	</article>	
+
+	<article>
+		<author>Kelly Enochson:</author>
+		<title>A binary features approach to person and number asymmetry.</title>
+		<file>9_KellyEnochson.pdf</file>
+	</article>
+
+	<article>
+		<author>Michael Klein:</author>
+		<title>Aspir(at)ing to Speak Like a Native: Tracking Voice Onset Time in the Acquisition of English Stops.</title>
+		<file>9_MikeKlein.pdf</file>
+	</article>
+	
+	<article>
+		<author>R. Cameron Petty:</author>
+		<title>Matrix Relationship Theory.</title>
+		<file>9_R. Cameron Petty.pdf</file>
+	</article>
+	
+			
+</issue>
+	

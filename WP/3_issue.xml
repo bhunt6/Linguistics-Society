@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding ="utf-8" ?>
+
+
+
+<issue> 
+	<id>
+		Volume 3, Spring 1996
+	</id>
+	
+	<editor>
+		Shelby Largay
+	</editor>
+	<editor>
+		Terry Stryer
+	</editor>
+
+		
+	<article>
+		<author>Charles Baker:</author>
+		<title>Vowel Epenthesis by Spanish Learners of English</title>
+		<file>3_Baker.pdf</file>
+	</article>
+	
+	<article>
+		<author>Cam Esser:</author>
+		<title>How Does Motivation to Learn a Second Language Differ from Other Performance Skill Motivation?</title>
+		<file>3_Esser.pdf</file>
+	</article>
+	
+
+	<article>
+		<author>Sarah Roman:</author>
+		<title>Two Models for Understanding Differential Substitution in Interlanguage</title>
+		<file>3_Roman.pdf</file>
+	</article>
+	
+
+	<article>
+		<author>Penelope Roberts:</author>
+		<title>Maximally Unspecified Vowels in Farsi</title>
+		<file>3_Roberts.pdf</file>
+	</article>
+	
+	<article>
+		<author>Alexanders Starz:</author>
+		<title>On Modularity</title>
+		<file>3_Starz.pdf</file>
+	</article>	
+
+		
+</issue>
+	

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding ="utf-8" ?>
+
+
+<issue> 
+	<id>
+		Volume 2, Spring 1993
+	</id>
+	
+	<editor>
+		William Fleitz
+	</editor>
+	<editor>
+		Takako Kawasaki
+	</editor>
+	<editor>
+		Lisa Carlson
+	</editor>
+		
+	<article>
+		<author>Thomas Purnell:</author>
+		<title>A Clarification of Asian Tonal Features</title>
+		<file>2_Purnell.pdf</file>
+	</article>
+	
+	<article>
+		<author>Carl Bailey:</author>
+		<title>"He's dumb as hell, but he ain't crazy": A Psycholinguistic Analysis of Steinbeck's Lennie Small</title>
+		<file>2_Bailey.pdf</file>
+	</article>
+	
+
+	<article>
+		<author>Mary Meares:</author>
+		<title>Parallel Distributed Processing and Universal Grammar: Complementary Concepts in a Biological Experiment for the Critical Period in Language Acquisition</title>
+		<file>2_Meares.pdf</file>
+	</article>
+	
+
+	<article>
+		<author>Takako Kawasaki:</author>
+		<title>Parameter Settings and the Subset Principle in L2 Acquisition of the Binding Theory</title>
+		<file>2_Kawasaki.pdf</file>
+	</article>
+	
+	<article>
+		<author>Stephen Hayle:</author>
+		<title>On the Null Subjects of Chinese Weather Verbs</title>
+		<file>2_Hayle.pdf</file>
+	</article>	
+
+		
+</issue>
+	

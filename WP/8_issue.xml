@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding ="utf-8" ?>
+
+<!DOCTYPE stylesheet [
+<!ENTITY ntilde  "&#241;" ><!-- small n, tilde -->
+]>
+
+
+<issue> 
+	<id>
+	           Volume 8, Fall 2011
+	</id>
+	
+	<editor>
+		Judith Hadley
+	</editor>
+	<editor>
+		Tel Monks
+	</editor>
+	<editor>
+		Jill Waybright
+	</editor>
+		
+	<article>
+		<title>Acknowledgements</title>
+		<file>8_ack.pdf</file>
+	</article>
+	
+	<article>
+		<author>Barbara Heigl:</author>
+		<title>[s] Under the influence of alcohol.</title>
+		<file>8_Heigl2.pdf</file>
+	</article>
+	
+
+	<article>
+		<author>Thamir Hilanto:</author>
+		<title>On Language Use: A Theoretical Treaty on the Workings of Language.</title>
+		<file>8_Hilanto.pdf</file>
+	</article>
+	
+
+	<article>
+		<author>Jodi Lamm</author>
+		<title>Making Sense out of Nonsense Poetry.</title>
+		<file>8_Lamm.pdf</file>
+	</article>
+	
+	<article>
+		<author>Shanna Phillips:</author>
+		<title>Exceptionality of /s/: Evidence from Aphasia.</title>
+		<file>8_Phillips.pdf</file>
+	</article>	
+
+	<article>
+		<author>Barbara Rachlin:</author>
+		<title>Derrida's Questionable Logic.</title>
+		<file>8_Rachlin2.pdf</file>
+	</article>
+
+	<article>
+		<author>Barbara Rachlin:</author>
+		<title>Looking for Searle's Black Swan</title>
+		<file>8_Rachlin1.pdf</file>
+	</article>
+	
+	<article>
+		<author>Tanja Szabo:</author>
+		<title>A Study of Monopthongization of /aj/ to /a:/ in Rural Eastern Kentucky and West Virginia Appalachian Regions.</title>
+		<file>8_Szabo.pdf</file>
+	</article>
+	
+	<article>
+		<author>Benjamin F. Taylor:</author>
+		<title>Why not "Spop"?: OCP and Prominent Position Effects on the English Lexicon.</title>
+		<file>8_Taylor.pdf</file>
+	</article>
+		
+</issue>
+	

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding ="utf-8" ?>
+
+<!DOCTYPE stylesheet [
+<!ENTITY ntilde  "&#241;" ><!-- small n, tilde -->
+]>
+
+
+<issue> 
+	<id>
+		Volume 7, Fall 2000
+	</id>
+	
+	<editor>
+		Christina Villafa&amp;ntilde;a
+	</editor>
+	<editor>
+		Sonja Knecht-Hoshi
+	</editor>
+		
+	<article>
+		<title>Acknowledgements</title>
+		<file>7_ack.pdf</file>
+	</article>
+	
+	<article>
+		<author>Maria S. Beldon:</author>
+		<title>Order Preference for Reduplicated Words with Differing Vowels</title>
+		<file>7_Beldon.pdf</file>
+	</article>
+	
+
+	<article>
+		<author>Peter T. Ruffner:</author>
+		<title>Epenthesis and Fricatives in Final Consonant Clusters</title>
+		<file>7_Ruffner.pdf</file>
+	</article>
+	
+
+	<article>
+		<author>Christina Villafa&amp;ntilde;a:</author>
+		<title>Emergence of the Unmarked in Interlanguage Coda Production</title>
+		<file>7_Villafana.pdf</file>
+	</article>
+	
+	<article>
+		<author>Kathleen Baker:</author>
+		<title>Synonymy: Not the Sole Cause of Blocking</title>
+		<file>7_Baker.pdf</file>
+	</article>	
+
+	<article>
+		<author>Melissa R. Olt:</author>
+		<title>Semantics in Support of the Quantifier Float</title>
+		<file>7_Olt.pdf</file>
+	</article>
+
+	<article>
+		<author>Christina Villafa&amp;ntilde;a:</author>
+		<title>Subject Prominence in English Middles</title>
+		<file>7_Villafana.pdf</file>
+	</article>
+	
+	<article>
+		<author>Szilvia Oszko:</author>
+		<title>A Lexicalist Approach To Absolute Reflexives</title>
+		<file>7_Oszko.pdf</file>
+	</article>
+	
+	<article>
+		<author>Abby Brown:</author>
+		<title>"What happened to my Yiddish?"</title>
+		<file>7_Brown.pdf</file>
+	</article>
+		
+</issue>
+	
