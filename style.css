@@ -8,11 +8,16 @@ body {
   background-color: #F3F3F1;
   font-family: Verdana, Geneva, sans-serif;
 }
+
+.qanda b, h1{
+  color: #0C5247;
+}
+
 .container {
   display: grid;
   min-height: 100%;
   grid-template-columns: 50px 1fr 1fr 20px;
-  grid-template-rows: 75px 50px auto 150px;
+  grid-template-rows: 75px 50px minmax(35rem, auto) 150px;
   grid-template-areas:
   ". title_cont ling2 ."
   ". nav nav ."
@@ -54,7 +59,7 @@ body {
   .nav {
     grid-area: nav;
     display: grid;
-    grid-template-columns: repeat(7, auto) 40%;
+    grid-template-columns: auto auto auto auto 70%;
     grid-auto-flow: row;
     border-bottom: 2px solid #0C5247;
   }
@@ -76,75 +81,78 @@ body {
     }
 
     .nav .box > a:hover {
-      background-color: #0C5247;
+      background-color: #febe10;
       color: #F3F3F1;
-      box-shadow: 0 -2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
     .home {
       grid-column: 1;
     }
 
-    .ling_prog {
-      grid-column: 2;
-      }
-
     .events {
-      grid-column: 3;
+      grid-column: 2;
     }
 
     .pubs {
-      grid-column: 4;
-    }
-
-    .ling_list {
-      grid-column: 5;
-    }
-
-    .contact {
-      grid-column: 6;
+      grid-column: 3;
     }
 
     .resources {
-      grid-column: 7;
+      grid-column: 4;
       cursor: pointer;
     }
 
-   .box div {
-      height: inherit;
-      width: inherit;
-      visibility: hidden;
-      opacity: 0;
-      transition: all 0.5s ease;
-      left: 0
-      display: none;
+    .dropbtn {
+      background-color: #F3F3F1;
+      color: #0C5247;
+      height: 48px;
+      width:auto;
     }
 
-    .box:hover > div,
-    .box div:hover {
-      visibility: visible;
-      opacity: 1;
-      display: inline-block;
-      z-index: 999;
-    }
-
-    .box div > a {
-      padding: 5px;
-      width: inherit;
-      display: inline-block;
+    .dropbtn > a {
+      align-self: end;
       text-decoration: none;
-      background-color: #e0e0d9;
+      white-space: nowrap;
+      padding: 10px;
+    }
+
+    .dropdown {
+      position: relative;
+      display: block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #F3F3F1;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      }
+
+    .dropdown-content a {
+      padding: 10px;
+      display: block;
+      text-decoration: none;
+      background-color: #F3F3F1;
       color: #0C5247;
       border-left: 2px solid #0C5247;
+      }
 
-    }
-
-    .box div > a:hover {
+    .dropdown-content a:hover {
       background-color: #0C5247;
       color: #F3F3F1;
     }
 
-    .one > a {
+    .dropdown:hover .dropdown-content {
+      display: inline-block;
+    }
+
+    .dropdown-content:hover .resources {
+      background-color: #0C5247;
+      color: #F3F3F1;
+    }
+
+    .dropdown-content a:first-child {
       border-top: 2px solid #0C5247;
     }
 
@@ -153,7 +161,7 @@ body {
     display: grid;
     grid-template-columns: 70% 30%;
     grid-template-rows: auto auto;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 
     .content .mission {
@@ -193,12 +201,12 @@ body {
       grid-column: 1;
       display: grid;
       grid-template-columns: auto;
-      grid-template-rows: 48px;
+      grid-template-rows: 5rem 5rem;
     }
 
     .content .constitution a {
       padding: 10px;
-      align-self: end;
+      align-self: start;
       justify-self: start;
       text-decoration: none;
       color:  #F3F3F1;
@@ -207,8 +215,7 @@ body {
     }
 
     .content .constitution a:hover {
-      box-shadow: 0 -2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
+      background-color: #febe10;
     }
 
   .footer {
